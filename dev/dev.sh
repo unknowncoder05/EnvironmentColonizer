@@ -22,5 +22,8 @@ bash dev/node/node.sh
 echo Installing Python
 bash dev/python/python.sh
 
-# echo Installing Github
-# bash github.sh
+echo Installing Github
+bash github.sh
+
+echo Setting SSH key
+bash ssh.sh
