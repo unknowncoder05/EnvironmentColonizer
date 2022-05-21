@@ -1,6 +1,6 @@
 sudo apt install docker.io docker-compose
 
-sudo groupadd docker
+echo creating group || sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
